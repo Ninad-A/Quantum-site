@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+.go-back {
+  background-color: black;
+  margin: 0;
+  color: white;
+  padding: 0.1px;
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  font-size: 45px;
+  margin: 20px;
+  background-color: #222831;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+.back {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 850px) {
+  h1 {
+    font-size: 35px;
+  }
+}
+
+.intro-vid {
+  margin: 100px;
+}
+
+.Ai {
+  margin-left: 4%;
+  width: 44%;
+  height: 50%;
+  margin-right: 4%;
+  margin-top: 0;
+  margin-bottom: 2%;
+}
+
+.technology-text {
+  text-align: justify;
+  font-size: 125%;
+  line-height: 150%;
+  margin: 3%;
+}
+
+.technology-img {
+  padding: 0 30px;
+}
+
+.encrypt {
+  width: 43.5%;
+  margin-right: 4%;
+}
+
+.video {
+  background-color: #30475e;
+  margin: 3%;
+  padding: 3%;
+}
+
+.contact {
+  background-color: #222831;
+  padding: 15px;
+}
+
+.sources {
+  color: white;
+  background-color: #30475e;
+  text-decoration: none;
+  padding: 10px;
+  margin: auto 20px;
+}
+
+.contact-me {
+  color: white;
+  position: static;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.logos {
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.logo {
+  margin: 40px 30px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 200%;
+}
+
+.logo:hover {
+  color: grey;
+}
+
+.email {
+    color: white;
+    background-color: #30475e;
+    text-decoration: none;
+    padding: 10px;
+    margin: auto 20px;
+}
+
+.email:hover {
+  background-color: grey;
+}
+
+.sources:hover {
+  background-color: grey;
+}

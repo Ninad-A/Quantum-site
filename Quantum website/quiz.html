@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Quantunm site</title>
+
+  <link rel="stylesheet" href="styles3.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/abd7526cf0.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="go-back">
+    <center><a class="back" href="index.html">
+        <h1>Quiz</h1>
+      </a></center>
+  </div>
+  <form id="quiz" name="quiz" style="margin-left: 2%; float: left;">
+    <p><strong>What are the two main quantum properties that make a quantum computer useful?</strong></p>
+    <input type="radio" id="mc" name="question1" value="Superposition and Quantum entanglement">Superposition and Quantum entanglement<br>
+    <input type="radio" id="mc" name="question1" value="Quantum tunneling and Superposition">Quantum tunneling and Superposition<br>
+    <input type="radio" id="mc" name="question1" value="Quantum tunneling and Quantum Entanglement">Quantum tunneling and Quantum Entanglement<br>
+    <input type="radio" id="mc" name="question1" value="None of the above">None of the above<br>
+
+    <p><strong>What are bits in a Quantum computer called?</strong></p>
+    <input type="radio" id="mc" name="question2" value="Q-bits">Q-bits<br>
+    <input type="radio" id="mc" name="question2" value="Quantum bits">Quantum bits<br>
+    <input type="radio" id="mc" name="question2" value="Both option A and B">Both option A and B<br>
+    <input type="radio" id="mc" name="question2" value="None of the above">None of the above<br>
+
+    <p><strong>How many values can 30 q-bits store at a single time?</strong></p>
+    <input type="radio" id="mc" name="question3" value="1 value">1 value<br>
+    <input type="radio" id="mc" name="question3" value="over 1,000 values">over 1,000 values<br>
+    <input type="radio" id="mc" name="question3" value="over 1,000,000 values">over 1,000,000 values<br>
+    <input type="radio" id="mc" name="question3" value="over 1,000,000,000 values">over 1,000,000,000 values<br>
+
+    <p><strong>What kinds of inputs and outputs do Quantum logic gates process and give?</strong></p>
+    <input type="radio" id="mc" name="question4" value="Input as a Superposition and output as a Superposition">Input as a Superposition and output as a Superposition<br>
+    <input type="radio" id="mc" name="question4" value="Input as a Superposition and outputs as a definite value">Input as a Superposition and outputs as a definite value<br>
+    <input type="radio" id="mc" name="question4" value="Input as a definite value and output as a Superposition">Input as a definite value and output as a Superposition<br>
+    <input type="radio" id="mc" name="question4" value="Input as a definite value and output as a definite value<">Input as a definite value and output as a definite value<br>
+
+    <p><strong>Quantum computers will replace our traditional computers fully.</strong></p>
+    <input type="radio" id="mc" name="question5" value="True">True<br>
+    <input type="radio" id="mc" name="question5" value="False">False<br>
+    <br>
+    <input type="button" id="button" value="I'm finished!" onclick="check();">
+  </form>
+
+  <div id="after_submit" class="after_submit">
+    <p id="message"></p>
+    <p id="number_correct"></p>
+    <img id="picture" />
+  </div>
+
+  <section id="contact">
+    <div class="contact" style="margin-top: 60%;">
+      <center><h4 class="contact-me">Contact</h4></center>
+      <center><a class="email" href="mailto:ninad.abhijit.atale@gmail.com">Email</a><a class="sources" href="sources.html">Sources</a></center>
+      <center><a href="https://www.instagram.com/"><i class="fab fa-instagram-square logo"></i></a><a href="https://twitter.com/hashtag/quantumcomputing?lang=en"><i class="fab fa-twitter-square logo"></i></a><a href="https://in.linkedin.com/"><i class="fab fa-linkedin logo"></i></a></center>
+    </div>
+  </section>
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
